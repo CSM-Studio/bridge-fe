@@ -1,0 +1,52 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.loginmainwrapper{
+    .loginform{
+        padding: 10px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        .logoform{
+            width: 170px;
+            margin: 0 auto 45px;
+        }
+
+        label{
+            font-style: italic;
+            font-size: 14px;
+            color: #000;
+        }
+
+        .haventacc{
+            text-align: center;
+            margin: 20px 0;
+            font-size: 14px;
+            font-style: italic;
+            a{
+                padding-left: 5px;
+                font-style: normal;
+                color: #000;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+// Medium devices (tablets, 1024px and up)
+@media (min-width:1024px){}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px){
+    .loginmainwrapper{
+        .loginform{
+            width: 360px;
+        }
+    }
+}

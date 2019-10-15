@@ -66,6 +66,7 @@ export function HomePage({
           content="A React.js Boilerplate application homepage"
         />
       </Helmet>
+	  
       <div>
         <CenteredSection>
           <H2>
